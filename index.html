@@ -1,5 +1,14 @@
 <html lang="en">
 <head>
+   <!-- <meta name="description" content="watch">
+    <meta name="keywords" content="ankor">
+    <meta property ="og:title" content="Min sidan">
+    <meta property ="og:site_name" content="MIN WEBBPLATS">
+    <meta property ="og:url" content="https://..."/>
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.min-webbplats.se/img/....jpg">
+    <meta name="og:description" content="watch">
+    <meta name="author" content="name....">-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
@@ -8,6 +17,7 @@
 </head>
 <body>
      <!-- Navigation -->
+<div>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Logo</a>
@@ -21,22 +31,64 @@
             <a class="nav-link js-scroll-trigger" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#register">Register</a>
+            <a class="nav-link js-scroll-trigger" href="sign.html">Register</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#log">Logga in</a>
+            <a class="nav-link js-scroll-trigger" href="login.html">Logga in</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="about.html">About</a>
           </li>
         </ul>
-      </div>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>   
     </div>
   </nav>
- <!--header_body here-->
+  <section>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/IWC-Pilots-Watch-Chronograph-Spitfire-Bronze.jpg" alt="Los Angeles" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="img/IWC.jpg" alt="Chicago" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="img/IWCBigPilot.jpg" alt="New York" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="img/IWC-Portugieser-Perpetual-Calendar-Tourbillon.jpg" alt="New York" width="1100" height="500">
+        </div>
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+</div>
+ 
+ <!--here-->
 
  
 

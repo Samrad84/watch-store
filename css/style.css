@@ -161,19 +161,9 @@ section#contact :-ms-input-placeholder {
   font-weight: 700;
 }
 
-.btn {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
-}
-
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px;
-}
-
-.btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -181,6 +171,13 @@ section#contact :-ms-input-placeholder {
   border-color: #fec810 !important;
   color: white;
 }
+
+/*.btn-primary {
+  background-color: #fed136;
+  border-color: #fed136;
+}*/
+
+
 
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
@@ -230,3 +227,24 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
   
 }
+
+
+#log-page{
+  background-color: #212529;
+}
+#log-form{
+  background: #fff;
+  border-radius: 10px;
+  padding: 50px;
+}
+.form-cancel{
+  text-align: center;
+
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 80%; 
+  
+}
+
