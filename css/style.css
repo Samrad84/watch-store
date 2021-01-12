@@ -179,6 +179,9 @@ header.masthead .intro-text .intro-heading {
 }
 
 
+
+
+
 section#contact {
   background-color: #212529;
   background-repeat: no-repeat;
@@ -215,6 +218,31 @@ section#contact ::-webkit-input-placeholder {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+.btn {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
+  color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
 
 #sendMessageButton {
   background-color: #fed136;
@@ -271,8 +299,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 
-#log-page{
+.container-fluid{
   background-color: #212529;
+  background-image: url("../img/watch-luxury-watches.jpg");
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-position: center center;
+  background-size: cover;
 }
 #log-form{
   background: #fff;
@@ -289,4 +322,110 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   
 }
 
+#fab {
+  font-family: "Font Awesome 5 Brands";
+  line-height: 2;
+}
 
+.team-boxed {
+  color: #313437;
+  background-color: #1d1b1b
+}
+
+.team-boxed p {
+  color: #7d8285
+}
+
+@media (max-width:767px) {
+  .team-boxed h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px
+  }
+}
+
+.team-boxed .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto
+}
+
+.team-boxed .intro p {
+  margin-bottom: 0
+}
+
+.team-boxed .people {
+  padding: 50px 0
+}
+
+.team-boxed .item {
+  text-align: center
+}
+
+.team-boxed .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  border-radius: 10px
+}
+
+.team-boxed .item .name {
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit
+}
+
+.team-boxed .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d0d0d0;
+  letter-spacing: 2px;
+  font-size: 13px
+}
+
+.team-boxed .item .description {
+  font-size: 15px
+}
+
+.team-boxed .item img {
+  max-width: 160px
+}
+
+.team-boxed .social {
+  font-size: 18px;
+  color: #a2a8ae
+}
+
+.team-boxed .social:hover {
+  font-size: 18px;
+  color: #f80808
+}
+
+.team-boxed .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+  padding: 6px
+}
+
+.team-boxed .social a:hover {
+  opacity: 1
+}
+
+
+
+.intro h1 {
+  color: #fff
+}
+
+.intro {
+  margin-top: 23px
+}
+
+.box img {
+  cursor: pointer;
+  width: 9em
+}
