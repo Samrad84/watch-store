@@ -5,12 +5,77 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet' type='text/css'>
     
-    <title>Document</title>
+    <title>TopWatch</title>
 </head>
 <body>
     
- <section>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">TopWatch</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" data-toggle="modal" href="#myModal">My account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>       
+        </div>
+      </nav>
+      <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+            <div class="modal-content">
+                <div class="modal-header">				
+                    <h4 class="modal-title">Member Login</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form method="post">
+                        <div class="form-group">
+                <i class="fa fa-user"></i>
+                <label for="InputFirstName">Email Address</label>
+                            <input type="text" class="form-control" placeholder="Email" required="required">
+                        </div>
+                        <div class="form-group">
+                <i class="fa fa-lock"></i>
+                <label for="InputFirstName">Password</label>
+                            <input type="password" class="form-control" placeholder="Password" required="required">					
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary btn-block btn-lg" value="Login">
+              </div>
+              <div class="form-footer">
+                <p> Don't have an account? <a href="sign.html">Sign Up</a></p>         
+              </div>
+                    </form>				
+                    
+                </div>
+                <div class="modal-footer">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+ <section id="team">
     <div class="team-boxed">
         <div class="container">
             <div class="intro">
@@ -19,38 +84,55 @@
             <div class="row people">
                 <div class="col-md-6 col-lg-4 item">
                     <div class="box"><img class="rounded-circle" data-bs-hover-animate="pulse" src="https://i.imgur.com/nAcoHRf.jpg">
-                        <h3 class="name">Boris Simga</h3>
-                        <p class="title">Designer</p>
-                        <p class="description"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br><br></p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                        <a href="#section1" class="btn btn-primary">Go somewhere</a>
+                        <h3 class="name">Boris s</h3>
+                        <p class="title">Seller</p>
+                        <p class="description"><br>
+                            Boris also starts at TopWatch. His title will be Marketing and Sales Assistant. Boris  came from Unisport , where he worked as a brand activation manager.<br><br></p>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i>
+                            </a><a href="#"><i class="fab fa-twitter"></i>
+                            </a><a href="#"><i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 item">
                     <div class="box"><img class="rounded-circle" data-bs-hover-animate="pulse" src="https://i.imgur.com/xELPaag.jpg">
-                        <h3 class="name">Andy row</h3>
-                        <p class="title">Graphics designer</p>
-                        <p class="description"><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ismal<br><br></p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                        <a href="#section3" class="btn btn-primary">Go somewhere</a>
+                        <h3 class="name">Rita k</h3>
+                        <p class="title">Designer</p>
+                        <p class="description"><br>
+                            Rita joined TopWatch for an UX/UI design internship after finishing her Iron Hack course in Amsterdam, we're very happy to keep her on the team!.   
+                           <br><br></p>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook">
+                            </i></a><a href="#"><i class="fab fa-twitter">
+                            </i></a><a href="#"><i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 item">
                     <div class="box"><img class="rounded-circle" data-bs-hover-animate="pulse" src="https://i.imgur.com/HjKTNkG.jpg">
-                        <h3 class="name">Charles m.</h3>
+                        <h3 class="name">John m</h3>
                         <p class="title">Developer</p>
-                        <p class="description"><br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id<br><br></p>
-                        <div class="social"><a href="#"><i class="fab fa-facebook-official"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
-                        <a href="#section3" class="btn btn-primary">Go somewhere</a>
+                        <p class="description"><br>
+                            John  builds back-end of the Website and he help with designer too,is good at his profession and is involved in several other companies too.   
+                           <br><br></p>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook">
+                            </i></a><a href="#"><i class="fab fa-twitter">
+                            </i></a><a href="#"><i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-   
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
